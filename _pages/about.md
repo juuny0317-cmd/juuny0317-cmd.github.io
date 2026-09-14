@@ -1,14 +1,14 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "YongJun is an undergraduate student at Konkuk University interested in autonomous driving and robotics."
+excerpt: "YongJun is a second-year undergraduate student in Smart Vehicle Engineering at Konkuk University, interested in autonomous driving and robotics."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<p class="intro">I am an undergraduate student at Konkuk University interested in autonomous-driving and robotics systems that connect perception, planning, control, simulation, and embedded hardware. I learn by building and validating small-scale autonomous vehicles, with particular attention to real-world constraints and sim-to-real transfer.</p>
+<p class="intro">I am a second-year undergraduate student in the Department of Smart Vehicle Engineering at Konkuk University, interested in autonomous-driving and robotics systems that connect perception, planning, control, simulation, and embedded hardware. I learn by building and validating small-scale autonomous vehicles, with particular attention to real-world constraints and sim-to-real transfer.</p>
 
 ## Research Interests
 
@@ -25,10 +25,17 @@ redirect_from:
 
 <div class="education-row">
   <div>
-    <strong>Konkuk University</strong>
-    <span>Undergraduate Student</span>
+    <strong>건국대학교</strong>
+    <span>스마트운행체공학과 · 2학년</span>
   </div>
 </div>
+
+## Contact
+
+<dl class="skills-list contact-list">
+  <div><dt>Email</dt><dd><a href="mailto:yongjunyu0317@gmail.com">yongjunyu0317@gmail.com</a></dd></div>
+  <div><dt>Phone</dt><dd><a href="tel:+821083418583">010-8341-8583</a></dd></div>
+</dl>
 
 ## Selected Projects
 

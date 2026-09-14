@@ -9,15 +9,17 @@ url: "https://juuny0317-cmd.github.io"
 baseurl: ""
 repository: "juuny0317-cmd/juuny0317-cmd.github.io"
 
-# Sidebar profile. Add an email address only when it is ready to be public.
+# Sidebar profile
 author:
   avatar: "profile-placeholder.svg"
   name: "YongJun"
-  bio: "Undergraduate Student"
-  location: "Konkuk University"
+  bio: "스마트운행체공학과 2학년"
+  location: "건국대학교"
   employer:
   uri:
-  email:
+  email: "yongjunyu0317@gmail.com"
+  phone: "010-8341-8583"
+  phone_href: "+821083418583"
   github: "juuny0317-cmd"
 
 # Site behavior

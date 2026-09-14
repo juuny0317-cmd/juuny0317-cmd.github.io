@@ -14,7 +14,21 @@ author_profile: true
   <figcaption>본선 경기 중인 Team SVE의 1/10 스케일 Xycar.</figcaption>
 </figure>
 
+<section class="case-video" aria-labelledby="technology-slideshow">
+  <div class="case-video__heading">
+    <p>기술 개요 영상</p>
+    <h2 id="technology-slideshow">이미지로 보는 핵심 기술</h2>
+    <span>YOLO · OpenCV · Camera–LiDAR Fusion · Stanley · Pure Pursuit · ROS 2 · Sim-to-Real</span>
+  </div>
+  <video controls playsinline preload="metadata" poster="{{ '/images/projects/kookmin2026/technology-slideshow-poster.jpg' | relative_url }}">
+    <source src="{{ '/files/kookmin2026-technology-slideshow.mp4' | relative_url }}" type="video/mp4" />
+    브라우저가 MP4 영상을 지원하지 않습니다. <a href="{{ '/files/kookmin2026-technology-slideshow.mp4' | relative_url }}">영상을 직접 열어 주세요.</a>
+  </video>
+  <p class="case-video__caption">국민대 프로젝트에 적용한 핵심 개념을 논문 그림 형태의 독자 도식으로 재구성했다. 실제 구현과 검증 근거는 아래 본문과 저장소 링크에서 확인할 수 있다. 영상은 무음이다.</p>
+</section>
+
 <nav class="case-nav" aria-label="프로젝트 상세 목차">
+  <a href="#technology-slideshow">기술 영상</a>
   <a href="#overview">개요</a>
   <a href="#competition-result">대회 결과</a>
   <a href="#my-contribution">담당 역할</a>
