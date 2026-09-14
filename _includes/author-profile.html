@@ -1,0 +1,25 @@
+{% include base_path %}
+{% assign author = site.author %}
+
+<div itemscope itemtype="https://schema.org/Person" class="profile">
+  <div class="author__avatar">
+    <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" alt="YongJun profile placeholder" fetchpriority="high" />
+  </div>
+
+  <div class="author__content">
+    <h2 class="author__name" itemprop="name">{{ author.name }}</h2>
+    <p class="author__bio" itemprop="jobTitle">{{ author.bio }}</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse" aria-label="Show profile links">Profile</button>
+    <ul class="author__urls social-icons">
+      <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+      {% if author.email %}
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      {% endif %}
+      <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+      <li><a href="{{ base_path }}/cv/"><i class="fas fa-fw fa-file-lines icon-pad-right" aria-hidden="true"></i>CV</a></li>
+    </ul>
+  </div>
+</div>

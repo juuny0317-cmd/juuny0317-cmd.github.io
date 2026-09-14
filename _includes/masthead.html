@@ -1,0 +1,17 @@
+{% include base_path %}
+<header class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="portfolio-nav" aria-label="Primary navigation">
+        <a class="site-wordmark" href="{{ base_path }}/" aria-label="YongJun — home">YJ<span>.</span></a>
+        <ul class="visible-links">
+          {% for link in site.data.navigation.main %}
+            <li class="masthead__menu-item {% if page.url == link.url or page.url contains link.url and link.url != '/' %}selected{% endif %}">
+              <a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
