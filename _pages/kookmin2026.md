@@ -15,10 +15,7 @@ author_profile: true
 </figure>
 
 <section class="case-video" id="technology-slideshow" aria-label="YOLO, 카메라 보정, 제어 알고리즘, Mission Manager 유한 상태 기계 이미지 슬라이드">
-  <video controls playsinline preload="metadata" poster="{{ '/images/projects/kookmin2026/technology-slideshow-poster.jpg' | relative_url }}">
-    <source src="{{ '/files/kookmin2026-technology-slideshow.mp4' | relative_url }}" type="video/mp4" />
-    브라우저가 MP4 영상을 지원하지 않습니다. <a href="{{ '/files/kookmin2026-technology-slideshow.mp4' | relative_url }}">영상을 직접 열어 주세요.</a>
-  </video>
+  <img src="{{ '/images/projects/kookmin2026/technology-slideshow.gif' | relative_url }}" alt="YOLO, 카메라 보정, 제어 알고리즘과 Mission Manager 유한 상태 기계를 순서대로 보여주는 GIF" />
 </section>
 
 <nav class="case-nav" aria-label="프로젝트 상세 목차">
