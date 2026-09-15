@@ -393,63 +393,14 @@ a {
 
 .case-video {
   margin: 2.5rem 0;
-  padding: 1.25rem;
-  color: #f7f8fa;
-  background: #0b1018;
-  border-top: 3px solid #ff7a00;
-}
-
-.case-video__heading {
-  margin-bottom: 1rem;
-}
-
-.case-video__heading p,
-.case-video__heading h2,
-.case-video__heading span,
-.case-video__caption {
-  margin: 0;
-}
-
-.case-video__heading p {
-  color: #ff8b24;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.case-video__heading h2 {
-  margin-top: 0.22rem;
-  padding: 0;
-  color: #ffffff;
-  border: 0;
-  font-size: 1.2rem;
-}
-
-.case-video__heading h2::before {
-  content: none;
-}
-
-.case-video__heading span {
-  display: block;
-  margin-top: 0.28rem;
-  color: #aeb6c2;
-  font-size: 0.78rem;
 }
 
 .case-video video {
   display: block;
   width: 100%;
   height: auto;
-  background: #05080d;
-  border: 1px solid #242c37;
-}
-
-.case-video__caption {
-  margin-top: 0.7rem;
-  color: #aeb6c2;
-  font-size: 0.76rem;
-  line-height: 1.55;
+  background: #ffffff;
+  border: 1px solid #dedfe2;
 }
 
 .contact-list a {
