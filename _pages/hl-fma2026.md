@@ -9,7 +9,7 @@ author_profile: true
 
 <p class="project-result project-result--blue case-result">RESULT · 장려상</p>
 
-<p class="intro">HL FMA 2026을 위해 1/5 스케일 전동 차량의 하드웨어를 제작하고, ROS 2 기반 위치추정·인지·미션 판단·경로 추종·안전 제어를 통합한 프로젝트다. 대회에서 장려상을 받았다. 이 페이지는 실제 코드, 제작 사진과 현장 시험 자료를 바탕으로 구성했으며, 팀 공동 구현과 개인 참여 경험을 구분하고 완주 여부는 별도로 주장하지 않는다.</p>
+<p class="intro">HL FMA 2026을 위해 1/5 스케일 전동 차량의 하드웨어를 제작하고, ROS 2 기반 위치추정·인지·미션 판단·경로 추종·안전 제어를 통합한 프로젝트다. 대회에서 장려상을 받았다.</p>
 
 <figure class="case-hero case-hero--portrait-source">
   <img src="{{ '/images/projects/hl-fma2026/competition-vehicle-wide.jpg' | relative_url }}" alt="HL FMA 2026 대회 현장에 배치된 듀얼 GNSS 안테나 장착 1/5 스케일 자율주행 차량" />
@@ -81,9 +81,9 @@ author_profile: true
   <div><dt>임베디드</dt><dd>NUCLEO-H723ZG · MDD20A · MD10C</dd></div>
 </dl>
 
-### 참여 범위
+### 주요 개발 내용
 
-제공된 제작·시험 자료로 확인되는 개인 참여는 차체 분해와 센서 지지 구조 제작, 전원·모터 제어 배선 통합, 조향 위치 피드백 시험, 듀얼 GNSS 장착과 RTK/waypoint 현장 시험, TUI·Foxglove 기반 통합 운용이다. ROS 2 전체 스택, 인지·미션·주차 경로, 안전 감독과 펌웨어는 팀 공동 개발로 설명하며, 저장소만으로 담당자를 특정할 수 없는 기능을 개인 단독 구현으로 표시하지 않았다.
+차체 분해와 센서 지지 구조 제작부터 전원·모터 제어 배선, 조향 위치 피드백, 듀얼 GNSS 장착, RTK waypoint 기록, ROS 2 주행 스택과 TUI·Foxglove 기반 현장 운용까지 함께 개발하고 시험했다.
 
 ## 차량 하드웨어 제작 {#hardware}
 
@@ -171,7 +171,7 @@ RTK 상태를 확인한 뒤 현장 waypoint를 기록하고, CSV에 좌표·누�
   <div><dt>PARK</dt><dd>T/평행 주차 후보와 종점 차선을 2×2×2 route variant로 관리하고 진행방향 전환 전에 완전정지를 확인한다.</dd></div>
 </dl>
 
-위 기능은 코드와 설정에 구현된 범위다. 각 기능이 본선에서 성공적으로 수행됐다고 볼 로그나 결과 자료는 제공되지 않았으므로 구현 여부와 대회 성공 여부를 구분한다.
+본선에서는 좌회전 신호등 구간 이후 직선 복귀 중 오실레이션이 커져 연석에 충돌했다. 당시 주행 결과와 개선 방향은 아래 문제 분석에 정리했다.
 
 ## TUI와 Foxglove 대시보드 {#field-tools}
 
@@ -258,8 +258,6 @@ Foxglove에는 8개 경로 variant, 현재 waypoint의 FSM zone, camera, target/
 
 ## GitHub 저장소 {#repository}
 
-공개 저장소에는 ROS 2 packages, NUCLEO 자료, Course 07 경로, 운영 스크립트, Foxglove dashboard, 시험 절차와 공개 가능한 사진이 포함되어 있다. NTRIP 계정·비밀번호·토큰은 포함하지 않았고 사진은 EXIF를 제거한 웹용 사본만 사용했다.
+ROS 2 packages, NUCLEO 자료, Course 07 경로, 운영 스크립트, Foxglove dashboard와 시험 절차를 저장소에서 확인할 수 있다. NTRIP 계정·비밀번호·토큰은 제외했다.
 
 <p class="repository-links"><a href="https://github.com/juuny0317-cmd/HL_FMA_2026">GitHub에서 HL_FMA_2026 열기 <span aria-hidden="true">↗</span></a></p>
-
-원본 팀 저장소 [`yunny22/HL_KU`](https://github.com/yunny22/HL_KU)의 공동 개발 사실과 가져온 기준 commit을 새 저장소 README에 명시했다.
