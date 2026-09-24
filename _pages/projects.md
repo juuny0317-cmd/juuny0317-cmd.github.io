@@ -29,6 +29,7 @@ author_profile: true
       <img class="project-thumbnail" src="{{ '/images/projects/hl-fma2026/competition-vehicle-wide.jpg' | relative_url }}" alt="HL FMA 2026 대회 현장의 듀얼 GNSS 안테나 장착 자율주행 차량" loading="lazy" />
       <div class="project-heading"><h2>HL FMA 2026 · 1/5-Scale Autonomous Vehicle</h2><span class="project-status project-status--complete">Completed</span></div>
       <p>Built and field-tested a ROS 2 autonomous-driving system integrating dual-antenna RTK GNSS localization, camera/LiDAR perception, mission-tagged CSV routes, Stanley path tracking, safety supervision, and NUCLEO-H723ZG motor control.</p>
+      <p class="project-result project-result--blue">Result: Encouragement Award</p>
       <p class="project-tech">ROS 2 Humble · UM982 RTK GNSS · Camera · LiDAR · Stanley · FSM · NUCLEO-H723ZG</p>
       <p class="project-links"><a href="{{ '/projects/hl-fma2026/' | relative_url }}">Read case study <span aria-hidden="true">→</span></a><span aria-hidden="true">·</span><a href="https://github.com/juuny0317-cmd/HL_FMA_2026">View repository <span aria-hidden="true">↗</span></a></p>
     </div>

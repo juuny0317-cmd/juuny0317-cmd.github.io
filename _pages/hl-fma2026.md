@@ -7,7 +7,9 @@ author_profile: true
 
 <p class="case-kicker">자율주행 · Team SVE · 완료</p>
 
-<p class="intro">HL FMA 2026을 위해 1/5 스케일 전동 차량의 하드웨어를 제작하고, ROS 2 기반 위치추정·인지·미션 판단·경로 추종·안전 제어를 통합한 프로젝트다. 이 페이지는 실제 코드, 제작 사진과 현장 시험 자료를 바탕으로 구성했으며, 팀 공동 구현과 개인 참여 경험을 구분하고 확인되지 않은 완주·수상 결과는 주장하지 않는다.</p>
+<p class="project-result project-result--blue case-result">RESULT · 장려상</p>
+
+<p class="intro">HL FMA 2026을 위해 1/5 스케일 전동 차량의 하드웨어를 제작하고, ROS 2 기반 위치추정·인지·미션 판단·경로 추종·안전 제어를 통합한 프로젝트다. 대회에서 장려상을 받았다. 이 페이지는 실제 코드, 제작 사진과 현장 시험 자료를 바탕으로 구성했으며, 팀 공동 구현과 개인 참여 경험을 구분하고 완주 여부는 별도로 주장하지 않는다.</p>
 
 <figure class="case-hero case-hero--portrait-source">
   <img src="{{ '/images/projects/hl-fma2026/competition-vehicle-wide.jpg' | relative_url }}" alt="HL FMA 2026 대회 현장에 배치된 듀얼 GNSS 안테나 장착 1/5 스케일 자율주행 차량" />
