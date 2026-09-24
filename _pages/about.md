@@ -53,12 +53,14 @@ redirect_from:
     </div>
   </article>
 
-  <article class="project-entry">
+  <article class="project-entry project-entry--featured project-entry--media">
     <div class="project-year">2026</div>
     <div class="project-body">
-      <div class="project-heading"><h3>HL FMA 2026</h3><span class="project-status">In Progress</span></div>
-      <p>Safety-oriented ROS 2 driving stack for a 1/5-scale autonomous vehicle, combining dual-antenna RTK GNSS, route tracking, mission management, and vehicle control.</p>
-      <p class="project-tech">RTK GNSS · Path Planning · Vehicle Control · ROS 2</p>
+      <img class="project-thumbnail" src="{{ '/images/projects/hl-fma2026/competition-vehicle-wide.jpg' | relative_url }}" alt="HL FMA 2026 대회 현장의 듀얼 GNSS 안테나 장착 자율주행 차량" loading="lazy" />
+      <div class="project-heading"><h3>HL FMA 2026 · 1/5-Scale Autonomous Vehicle</h3><span class="project-status project-status--complete">Completed</span></div>
+      <p>Built and field-tested a ROS 2 autonomous-driving system that connected dual-antenna RTK GNSS, camera/LiDAR perception, CSV global routes, mission FSMs, Stanley tracking, safety supervision, and a NUCLEO-H723ZG vehicle interface.</p>
+      <p class="project-tech">ROS 2 Humble · UM982 RTK GNSS · LiDAR · Stanley · FSM · NUCLEO-H723ZG</p>
+      <p class="project-links"><a href="{{ '/projects/hl-fma2026/' | relative_url }}">Project Details <span aria-hidden="true">→</span></a><span aria-hidden="true">·</span><a href="https://github.com/juuny0317-cmd/HL_FMA_2026">GitHub <span aria-hidden="true">↗</span></a></p>
     </div>
   </article>
 
